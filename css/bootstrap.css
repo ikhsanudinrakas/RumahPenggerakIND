@@ -46,7 +46,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3930,6 +3930,7 @@ textarea.form-control-lg {
 }
 
 .navbar {
+  font-family: 'Signika', sans-serif;
   position: relative;
   display: flex;
   flex-wrap: wrap;
