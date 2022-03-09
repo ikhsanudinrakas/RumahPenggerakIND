@@ -4259,6 +4259,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  top: 700px;
 }
 .card > hr {
   margin-right: 0;
@@ -5739,9 +5740,12 @@ textarea.form-control-lg {
 }
 
 .carousel-inner {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 640px;
+  height: 542px;
   overflow: hidden;
+  top: -160px;
+  bottom: 500px;
 }
 .carousel-inner::after {
   display: block;
@@ -5816,10 +5820,8 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  padding: 0;
+  padding:center;
   color: #fff;
-  text-align: center;
   background: none;
   border: 0;
   opacity: 0.5;
@@ -5841,11 +5843,19 @@ textarea.form-control-lg {
 }
 
 .carousel-control-prev {
-  left: 0;
+  weight:52.95px;
+  height: 53px;
+  top: 456px;
+  left: 135px;
+  position: absolute;
 }
 
 .carousel-control-next {
-  right: 0;
+  position: absolute;
+  width: 52.95px;
+  height: 53px;
+  left: 210.94px;
+  top: 456px;
 }
 
 .carousel-control-prev-icon,
