@@ -306,6 +306,20 @@ label {
 
 button {
   border-radius: 0;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #333;
+  font-family: 'Roboto';
+  font-style: var(--bs-light);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 button:focus:not(:focus-visible) {
@@ -3942,6 +3956,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4487,7 +4502,23 @@ ul{
     border-bottom-left-radius: 0;
   }
 }
+.gambarlistdesa {
+  width:210px; 
+  height:260px:
+}
+.number{
+  position: absolute;
+  width: 37px;
+  height: 64px;
+  left: 42px;
+  top: 444px;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
 .accordion-button {
   position: relative;
   display: flex;
@@ -5893,6 +5924,7 @@ ul{
   position: absolute;
   top: 0;
   bottom: 0;
+  margin-bottom: 20%;
   z-index: 1;
   display: flex;
   align-items: center;
