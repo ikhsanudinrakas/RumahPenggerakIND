@@ -6,17 +6,17 @@
             <div class="row h-100">
 
                 <div class="col-4 col-lg-2">
-                    <form class="d-flex">
+                    {{-- <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" class="icon" type="submit"><i
                                 class="bi bi-search"></i></button>
-                    </form>
+                    </form> --}}
                     <br><br><br><br><br><br>
-                    <div class="titlepage">
-                        <h1>PROJEK</h1>
+                    <div class="titlepage" style="margin-left: 30%;">
+                        <h1>PROYEK</h1>
                         <h1 class="fw-bold">{{ $proyek_terakhir->nama }}</h1>
-                        <a href="{{ route('proyek.show', $proyek_terakhir->id) }}">
-                            <h5>Lihat Projek</h5>
+                        <a href="{{ route('proyek.show', $proyek_terakhir->id) }}" style="text-decoration: none">
+                            <h5>Lihat Proyek</h5>
                         </a>
 
                     </div>
@@ -109,7 +109,7 @@
     <section class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="fk mb-3">Project Kami</div>
+                <div class="fk mb-3">Proyek Kami</div>
             </div>
         </div>
         <div class="row">
@@ -130,7 +130,7 @@
         <div class="row justify-content-end mt-3 mb-3">
             <div class="col-md-2">
                 <div class="">
-                    <a href="{{ route('proyek.index') }}" class="btn btn-secondary bg-dark">Semua Projek</a>
+                    <a href="{{ route('proyek.index') }}" class="btn btn-secondary bg-dark">Semua Proyek</a>
                 </div>
             </div>
         </div>

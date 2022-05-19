@@ -43,7 +43,7 @@
                         </div>
                         <div class="form-group">
                             <label for="deskripsi_singkat">Deskripsi Singkat</label>
-                            <textarea name="deskripsi_singkat" id="deskripsi_singkat" cols="30" rows="4" class="form-control">{{ old('deskripsi_singkat') }}</textarea>
+                            <input name="deskripsi_singkat" id="deskripsi_singkat" placeholder="Maksimal 100 karakter" cols="30" rows="4" class="form-control">{{ old('deskripsi_singkat') }}</input>
                             @error('deskripsi_singkat')
                                 <div class="is-invalid">
                                     {{ $message }}

@@ -38,7 +38,7 @@
                                         Akun Anda
                                     </div>
                                     @else
-                                    <a href="{{ route('admin.users.edit',$item->id) }}" class="btn btn-sm btn-info"><i class="fas fa-edit"></i></a>
+                                    {{-- <a href="{{ route('admin.users.edit',$item->id) }}" class="btn btn-sm btn-info"><i class="fas fa-edit"></i></a> --}}
                                     <form action="{{ route('admin.users.destroy',$item->id) }}" method="post" class="d-inline">
                                         @csrf
                                         @method('delete')

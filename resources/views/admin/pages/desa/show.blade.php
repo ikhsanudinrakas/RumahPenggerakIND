@@ -29,7 +29,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>Deskripsi Singakat</th>
+                            <th>Deskripsi Singkat</th>
                             <td> : </td>
                             <td>{{ $item->deskripsi_singkat }}</td>
                         </tr>

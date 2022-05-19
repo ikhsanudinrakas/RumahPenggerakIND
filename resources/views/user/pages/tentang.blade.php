@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="font-weight-light" style="font-weight: 200">PERUSHAAN</h2>
+        <h2 class="font-weight-light" style="font-weight: 200">PERUSAHAAN</h2>
         <h2>PENGENALAN</h2>
       </div>
     </div>

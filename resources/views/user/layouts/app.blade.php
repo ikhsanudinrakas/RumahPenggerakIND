@@ -9,7 +9,7 @@
     {{-- <link href="css/bootstrap.css" rel="stylesheet" > --}}
 
     <!-- Logo Tittle -->
-    <link rel="icon" href="frontend/logo2.png">
+    <link rel="icon" href="frontend/img/logo2.png">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
 
-    <title>Beranda | Rumah Penggerak</title>
+    <title>Rumah Penggerak</title>
     @stack('styles')
   </head>
   <body>

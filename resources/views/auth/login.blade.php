@@ -32,14 +32,14 @@
             </div>
             @enderror
           </div>
-          <div class="form-group">
+          {{-- <div class="form-group">
             <div class="icheck-primary">
               <input type="checkbox" id="remember" name="remember">
               <label for="remember">
                 Remember Me
               </label>
             </div>
-          </div>
+          </div> --}}
           <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block">Login</button>
           </div>

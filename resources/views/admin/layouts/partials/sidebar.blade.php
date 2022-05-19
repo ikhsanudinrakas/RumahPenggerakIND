@@ -53,14 +53,14 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a href="{{ route('admin.pesan-masuk.index') }}" class="nav-link">
               <i class="nav-icon far fa-folder"></i>
               <p>
                 Pesan Masuk
               </p>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item">
             <a href="{{ route('admin.galeri.index') }}" class="nav-link">
               <i class="nav-icon far fa-image"></i>

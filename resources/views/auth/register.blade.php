@@ -120,8 +120,8 @@
         <form action="{{ route('register') }}" method="post">
           @csrf
             <div class="form-group">
-              <label for="name">Nama Pengguna</label>
-              <input type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Masukan Nama" name="name" value="{{ old('name') }}">
+              <label for="name">Username</label>
+              <input type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Masukan Username" name="name" value="{{ old('name') }}">
               @error('name')
               <div class="invalid-feedback">
                   {{ $message }}
@@ -155,11 +155,21 @@
             </div>
             @enderror
         </div>
+        <div class="form-group">
+            <label for="avatar">Avatar</label>
+            <input type="file" class="form-control @error('avatar') is-invalid @enderror" name="avatar" value="{{ old('avatar') }}">
+            @error('avatar')
+            <div class="invalid-feedback">
+                {{ $message }}
+            </div>
+            @enderror
+        </div>
+
           <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block">Register</button>
           </div>
       </form>
-      <p>Suda punya akun? <a href="{{ route('login') }}">Login</a></p>
+      <p>Sudah punya akun? <a href="{{ route('login') }}">Login</a></p>
       </div>
     </div>
   </div>

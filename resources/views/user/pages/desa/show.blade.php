@@ -49,6 +49,20 @@
                 </div>
             </div>
         @endforeach
+
+        <div style="background-color: #24262b; width:20%; margin-bottom:20px; margin-left:40%">
+            <a href="https://forms.gle/WhjPqzmQSm8fR2856" style="
+            text-decoration: none; 
+            text-align:center; 
+            color:#fff; 
+            padding: 2px;
+            align-items:center;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            
+            "><p>Ajukan Kerjasama</p></a>
+        </div>
+
     </div>
 @endsection
 @push('styles')
