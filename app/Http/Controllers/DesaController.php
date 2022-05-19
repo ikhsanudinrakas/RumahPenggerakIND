@@ -9,10 +9,18 @@ class DesaController extends Controller
 {
     public function index()
     {
-        $data_desa = Desa::with('potensi')->paginate(10);
+        $q = request('q');
+        if($q)
+        {
+            $data_desa = Desa::with('potensi')->where('nama','like','%' . $q . '%')->orWhere('deskripsi_singkat','like', '%' . $q . '%')->paginate(5);
+        }else{
+            $data_desa = Desa::with('potensi')->paginate(5);
+            $q = NULL;
+        }
         return view('user.pages.desa.index',[
             'title' => 'List Desa',
-            'data_desa' => $data_desa
+            'data_desa' => $data_desa,
+            'q' => $q
         ]);
     }
 
@@ -24,4 +32,5 @@ class DesaController extends Controller
             'desa' => $desa
         ]);
     }
+
 }
